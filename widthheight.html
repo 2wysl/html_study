@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Property Basic</title>
+        <style>
+               body>div{width:400px; height:100px;
+            border:3px solid black;
+            position:relative;
+            overflow:hidden;}
+            .box{
+                width: 100px; height: 100px;
+                position: absolute;
+            }
+            .box:nth-child(1){
+                background-color: aqua;
+                left:60px; top:60px;
+                z-index: 100;
+            }
+            .box:nth-child(2){
+                background-color: yellow;
+                left:80px; top:80px;
+                z-index: 150;
+            }
+            .box:nth-child(3){
+                background-color: gainsboro;
+                left:100px; top:100px;
+                z-index: 50;
+            }
+            /* .box:nth-child(1){background-color: aqua;}
+            .box:nth-child(2){background-color: wheat;}
+            .box:nth-child(3){background-color: yellow;} */
+            /* #box{
+                display: inline-block;
+            }
+            .box{
+                border-width: thick;
+                border-style: dashed;
+                border-color: black;
+            }
+            div{
+                width: 100px; height: 100px;
+                background-color: red;
+
+                margin: 0 30px;
+                padding : 0 30px;
+                /* border: 20px solid black;
+                margin: 10px; padding: 30px; */
+            } */
+        </style>
+    </head>
+    <body>
+     
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <!-- <span>더미</span>
+        <div id="box">대상 객체</div>
+        <span>더미</span>
+        <div class="box">
+            <h1>JIWON</h1>
+        </div> -->
+    </body>
+</html>
